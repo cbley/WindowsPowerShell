@@ -18,3 +18,5 @@ function Set-Location-Src{
         cd ~/src
 }
 set-alias src Set-Location-Src
+
+set-alias g git
