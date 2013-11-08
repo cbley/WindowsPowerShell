@@ -1,5 +1,6 @@
 Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
 
+. ./aliases.ps1
 Import-Module posh-git
 
 
