@@ -1,3 +1,6 @@
 [submodule "Modules/posh-git"]
 	path = Modules/posh-git
 	url = https://github.com/dahlbyk/posh-git.git
+[submodule "Modules/Find-String"]
+	path = Modules/Find-String
+	url = https://github.com/drmohundro/Find-String.git

@@ -3,6 +3,7 @@ Push-Location (Split-Path -Path $MyInvocation.MyCommand.Definition -Parent)
 . ./aliases.ps1
 . ./GitAliases.ps1
 Import-Module posh-git
+Import-Module Find-String
 
 
 # Set up a simple prompt, adding the git prompt parts inside git repos
