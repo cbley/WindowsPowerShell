@@ -12,3 +12,9 @@ function Set-Location-Profile{
         cd ~\Documents\WindowsPowerShell
 }
 set-alias profile Set-Location-Profile
+
+function Set-Location-Src{
+        Push-Location
+        cd ~/src
+}
+set-alias src Set-Location-Src
